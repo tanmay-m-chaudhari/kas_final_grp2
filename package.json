@@ -1,0 +1,16 @@
+{
+  "name": "novapay-root",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "platform/services/api",
+    "platform/services/frontend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace=platform/services/api\" \"npm run dev --workspace=platform/services/frontend\"",
+    "build:frontend": "npm run build --workspace=platform/services/frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

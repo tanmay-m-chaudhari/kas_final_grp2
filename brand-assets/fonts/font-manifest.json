@@ -1,0 +1,7 @@
+{
+  "fonts": [
+    { "family": "Inter", "weight": 400, "file": "Inter-Regular.woff2", "format": "woff2" },
+    { "family": "Inter", "weight": 700, "file": "Inter-Bold.woff2", "format": "woff2" },
+    { "family": "JetBrains Mono", "weight": 400, "file": "JetBrainsMono-Regular.woff2", "format": "woff2" }
+  ]
+}
